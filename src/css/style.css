@@ -11,7 +11,6 @@ body{
     align-items: center;
     padding: 0 80px;
     border-bottom: 1px solid #282828;
-    
 }
 
 .cabecalho .logo{
@@ -35,6 +34,7 @@ body{
 .cabecalho .menu li a:hover{
     border-bottom: 2px solid #fff;
 }
+
 
 .home {
     display: flex;
@@ -87,7 +87,7 @@ body{
     line-height: 1.6;
 }
 
-.btn-comprar{
+.btn-comprar, .btn-plataforma{
     background-color: rgba(255, 255, 255, .1);
     border: 0.5px solid #fff;
     border-radius: 4px;
@@ -140,4 +140,82 @@ body{
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+.compre-ja .informacoes h3{
+    font-family: 'ChaletComprime';
+    font-size: 52px;
+    font-weight: 700px;
+}
+
+.compre-ja .informacoes p{
+    color: #e8e8e8;
+    font-family: 'Chalet';
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.btn-plataforma{
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+.compre-ja .informacoes .plataformas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.compre-ja .btn-plataforma .plataforma{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all .3s ease-in;
+}
+
+.compre-ja .btn-plataforma .plataforma li{
+    padding: 20px;
+}
+
+.compre-ja .btn-plataforma .plataforma li:nth-child(1){
+    border: 1px solid #004395;
+}
+
+.compre-ja .btn-plataforma .plataforma li:nth-child(1):hover{
+    background-color: #004395;
+}
+
+.compre-ja .btn-plataforma .plataforma li:nth-child(2){
+    border: 1px solid #387a26;
+}
+
+.compre-ja .btn-plataforma .plataforma li:nth-child(2):hover{
+    background-color: #387a26;
+}
+
+.compre-ja .btn-plataforma .plataforma li:nth-child(3){
+    border: 1px solid #00439c;
+}
+
+.compre-ja .btn-plataforma .plataforma li:nth-child(3):hover{
+    background-color: #004395;
+}
+
+.compre-ja .btn-plataforma .plataforma li:nth-child(4){
+    border: 1px solid #387a26;
+}
+
+.compre-ja .btn-plataforma .plataforma li:nth-child(4):hover{
+    background-color: #387a26;
+}
+
+.compre-ja .btn-plataforma .plataforma li:nth-child(5){
+    border: 1px solid #fcaf18;
+}
+
+.compre-ja .btn-plataforma .plataforma li:nth-child(5):hover{
+    background-color: #fcaf18;
 }
