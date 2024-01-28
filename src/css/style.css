@@ -155,9 +155,14 @@ body{
 }
 
 .btn-plataforma{
+    background-color: #000;
     color: #fff;
     width: 100%;
     cursor: pointer;
+}
+
+.btn-plataforma:hover{
+    background-color: rgba(255, 255, 255, .1);
 }
 
 .compre-ja .informacoes .plataformas{
