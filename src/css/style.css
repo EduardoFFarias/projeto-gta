@@ -177,6 +177,10 @@ body{
     opacity: 0;
 }
 
+.compre-ja .btn-plataforma:{
+    background-color: #000;
+}
+
 .compre-ja .btn-plataforma .plataforma.ativo{
     display: flex;
     opacity: 1;
